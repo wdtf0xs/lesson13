@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+
+}
+
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: 0.5s;
+}
+
+a:hover{
+    color: rgba(252, 249, 249, 0.4);
+    transition: 0.5s;
+}
+
+
+img{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-right: 15px;
+
+
+}
+
+.logo>h3{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+video{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+
+}
+
+.menu{
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 30px;
+
+}
+
+div>ul{
+    display: flex;
+    gap: 30px;
+}
+
+ul>li{
+    list-style-type: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+
+button{
+    margin-right: 20px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    width: 120px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    background: #FFFFFF;
+    transition: 0.5s;
+}
+
+button:hover{
+    scale: 0.99;
+    transition: 0.5s;
+}
+
+section{
+    height: 90vh;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 auto;
+}
+
+.search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    height: 40px;
+    background: #eeeeee;
+    border-radius: 10px;
+}
+
+section img{
+    width: 24px;
+    height: 24px;
+    position: relative;
+    z-index: 1;
+    bottom: -32px;
+    left: -15px;
+}
+
+.search button{
+    width: 120px;
+    height: 35px;
+    border: 1px solid;
+    border-radius: 10px;
+    position: relative;
+    background: #EEEEEEFF;
+    margin-left: 5px;
+}
+
+section p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: #ececec;
+    text-shadow: 2px 1px rgba(35, 35, 35, 0.55);
+}
+
+input{
+    width: 300px;
+    height: 40px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    background: #EEEEEEFF;
+    position: relative;
+    left: -100px;
+}
+
+.glass{
+    position: relative;
+    z-index: 1;
+    top: -32px;
+    left: 530px;
+    margin-right: 0;
+
+}
